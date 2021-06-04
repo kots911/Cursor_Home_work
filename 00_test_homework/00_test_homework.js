@@ -1,4 +1,3 @@
-console.log('hello');
 let pricePhone = 15.678;
 let priceLaptop = 90.2345;
 let pricePC = 123.965;
