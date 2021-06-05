@@ -23,7 +23,7 @@ document.writeln("Если сумма всех товаров является �
 
 const pay = (500 - sum);
 document.writeln ("Сдача с 500грн при покупке всех товаров:" + pay);
-const sum_02 = +((sum / numOfProducts).toFixed(2));
+const sum_02 = (+(sum / numOfProducts).toFixed(2));
 
 const discountRandom = (Math.random() * 100);
 const clientDiscountRandom = (discountRandom).toFixed(2);
@@ -36,6 +36,7 @@ const clearPrice = (sum - priseSumDiscount - purchasePriceSum);
 document.writeln ("Чистый доход:" + clearPrice);
 const  payPriseSumDiscount = (sum - priseSumDiscount).toFixed(2);
 document.writeln ("Сумма к оплате после скидки:" + payPriseSumDiscount);
+
 
 
 
