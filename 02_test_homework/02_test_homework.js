@@ -3,11 +3,11 @@ let numN;
 let numM;
 
 do {
-  numN = +prompt('Enter 1st number:');
+  numN = +prompt("Введите первое целое чилое:");
   } while ((isNaN(numN) || numN !== parseInt(numN) ));
   
   do { 
-    numM = +prompt('Enter 2nd number:');
+    numM = +prompt("Введите первое целое чилое:");
     
   } while ((isNaN(numM) || numM !== parseInt(numM)));
 
