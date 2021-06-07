@@ -7,7 +7,7 @@ do {
   } while ((isNaN(numN) || numN !== parseInt(numN) ));
   
   do { 
-    numM = +prompt("Введите первое целое чилое:");
+    numM = +prompt("Введите второе целое чилое:");
     
   } while ((isNaN(numM) || numM !== parseInt(numM)));
 
