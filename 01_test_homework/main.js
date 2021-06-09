@@ -17,9 +17,9 @@ document.writeln( "Округленная сумма товаров: " + sumFloo
 const sumFloorRound = Math.round(sumOfPrices/100)*100;
 document.writeln( "Сумма товаров, округленная до сотен: " + sumFloorRound);
 
-const boolean = sumFloorRound % 2 === 0;
+const isTotalSumEven = sumFloorRound % 2 === 0;
 
-document.writeln("Если сумма всех товаров является парным числом - true=" + boolean);
+document.writeln("Если сумма всех товаров является парным числом - true=" + isTotalSumEven);
 
 const pay = (500 - sumOfPrices);
 document.writeln ("Сдача с 500грн при покупке всех товаров:" + pay);
