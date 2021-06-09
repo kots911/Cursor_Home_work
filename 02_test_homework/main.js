@@ -23,13 +23,12 @@ do {
   even = confirm("Пропускать парные числа?");
   console.log(even);
   sum = 0;
-  let i = minNum;
-  if (even && i <= maxNum) {
-    i % 2 == 0;
-    sum += i;
+    for (let i = minNum; i <= maxNum; i++ ) {
+  if (even && i <= maxNum && i % 2 == 0) {
+    continue;
       }
   else {
-    i++;
-    sum = sum + i;
+      sum = sum + i;
   }; 
+};
 alert("Сумма всех чисел в цикле:" + sum);
