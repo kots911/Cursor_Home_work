@@ -22,21 +22,15 @@ do {
   
   even = confirm("Пропускать парные числа?");
   console.log(even);
-  
-    if (even) {
-    sum = 0;
-    for (let i = minNum;  i <= maxNum; i++) {
-      if ( i % 2 == 0)  {
-        continue;
+  sum = 0;
+  let i = minNum;
+  if (even && i <= maxNum) {
+    i % 2 == 0;
+    sum += i;
       }
-      sum += i;
-  }
-  }
-    else {
-      sum = 0;
-      for ( let i = minNum; i <= maxNum; i++) {
-        sum = sum + i;
-      }
-     
-};
+      
+  else {
+    i++;
+    sum = sum + i;
+  }; 
 alert("Сумма всех чисел в цикле:" + sum);
