@@ -28,7 +28,6 @@ do {
     i % 2 == 0;
     sum += i;
       }
-      
   else {
     i++;
     sum = sum + i;
