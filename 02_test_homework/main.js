@@ -24,7 +24,7 @@ do {
   console.log(even);
   sum = 0;
     for (let i = minNum; i <= maxNum; i++ ) {
-  if (even && i <= maxNum && i % 2 == 0) {
+  if (even && i === maxNum && i % 2 == 0) {
     continue;
       }
   else {
